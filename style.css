@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 16px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 32px;
+}
+
+.header ul li, .sub_copy {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 96px 10%;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.hero_main {
+    padding-right: 96px;
+}
+
+.main_text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.sub_copy {
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero img {
+    height: 350px;
+    width: 1000px;
+    object-fit: contain;
+}
+
+.highlights {
+    padding: 48px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight_header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom:48px;
+}
+
+.highlight_card_container {
+    display: flex;
+    gap: 48px;
+}
+
+.highlight_image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.highlight_card {
+    width: 160px;
+    text-align: center;
+    color: #6D747D;
+    font-size: 16px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 96px 22%;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotee {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.banner {
+    padding: 32px 96px;
+    margin: 48px auto;
+    background-color: #3882F6;
+    width:600px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+
+.banner-title {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.banner-text {
+    font-size: 14px;
+}
+
+.banner button {
+    border: #f9faf8 2px solid;
+}
+
+.footer {
+    background:#1f2937;
+    color: #e5e7eb;
+    padding: 32px 10%;
+    text-align: center;
+}
